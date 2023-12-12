@@ -45,7 +45,7 @@ export default function Loading() {
   return hide ? null : (
     <div
       ref={bg}
-      className='absolute left-0 top-0 z-[99999999] flex h-screen w-screen flex-col items-center justify-center bg-zinc-800 text-zinc-700'
+      className='fixed left-0 top-0 z-[99999999] flex h-screen w-screen flex-col items-center justify-center bg-zinc-800 text-zinc-700'
     >
       <div
         ref={content}

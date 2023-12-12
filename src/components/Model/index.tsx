@@ -15,7 +15,11 @@ const Model = () => {
   }, []);
 
   return (
-    <group ref={ref as Ref<Group<Object3DEventMap>>} scale={0.03}>
+    <group
+      ref={ref as Ref<Group<Object3DEventMap>>}
+      scale={0.06}
+      rotation={[0, -Math.PI / 2, 0]}
+    >
       <primitive object={scene} />
     </group>
   );
